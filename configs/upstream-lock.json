@@ -1,0 +1,28 @@
+{
+  "verified_on": "2026-10-03",
+  "amd_reference": {
+    "url": "https://github.com/ZiguanWang/Robotwin-radeon-cloud",
+    "revision": "27b2f6fcb6c715e2cbb6db4431381f87c94b86ed"
+  },
+  "robotwin_revision": "266f3aadf505a4f7fe9af0faa41a20f5f47cd123",
+  "xpolicylab_revision": "c37109c500be67d0dea6b36bf7337bbd26e763cd",
+  "lingbot_revision": "951475ae1b1d87553e7dc47c97b53a3d695c0d13",
+  "base_model": "robbyant/lingbot-vla-v2-6b",
+  "base_model_revision": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+  "dataset_revision": "a967b852afa21a9cbf19a198f7e653109042e87c",
+  "reference_files": {
+    "training/lingbotvla_cli.yaml": "808a2718c81595e0303fa8b5d4b563d004014395711ae9cf371acd1a0ab635df",
+    "scripts/run_clean_benchmark.py": "b70d8e40421fa50f97154889a6b5c73a47dd1fb6d9f2a80ddfc6352d7bcb5e73",
+    "scripts/convert_full_sft_dcp.py": "a3a6ed151f77a12d0514197e591305b5cca6f8e1679263c23e9ef91e2cc0c44e",
+    "scripts/launch_official_server.sh": "b1c1684c9420c057ccfd25e09fd30b36eedff5190decff37bec6d9b115304761"
+  },
+  "trainer_sha256": "04b5a3c785fef836f9e3c362ccfa70e1cb8c993ca8a0cc1111bf05c0a5700148",
+  "norm_script_sha256": "b0d7a332afa3a954f0ca41cad7921e5b7e96641414c1f5afc45577a0a7c67012",
+  "source_files": {
+    "configs/robot_configs/robotwin.yaml": "2c2a26509fc9662a8ada64adaa7fa959627dd6dadc6b48b680c4285da2d8ffd8",
+    "lingbotvla/data/vla_data/base_dataset.py": "7121219fba5a01f42017257bd2237d8ca9dd7f17d9a124befe4d53ceb6c2a3c3",
+    "lingbotvla/data/vla_data/multi_vla_dataset.py": "e7fdc74b48a1ccafb592a806eaf2d7d16d66749f72cf20099d2ff66efe781216",
+    "lingbotvla/data/vla_data/utils.py": "0955f3893d2eeb4322ccb0f26f88a073479492d3d0b148ee2d7367a3c96fd5bc",
+    "deploy/lingbot_vla_v2_policy.py": "4b4d3c43b37185e2731fd7ffe3410607d41bfd7d9b102db7789ef84fe3c44ecc"
+  }
+}

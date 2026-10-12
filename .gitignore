@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+vendor/
+sources/
+runtime/
+dist/
+*.safetensors
+*.pt
+*.pth
+.env
+*.pem
+*.key
